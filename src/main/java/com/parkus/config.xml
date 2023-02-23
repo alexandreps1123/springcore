@@ -8,11 +8,7 @@
     http://www.springframework.org/schema/context/spring-context.xsd">
 
     <bean name="emp" class="com.parkus.Employee">
-        <property name="id">
-            <value>20</value>
-        </property>
-        <property name="name">
-            <value>Parkus</value>
-        </property>
+        <property name="id" value="20"/>
+        <property name="name" value="Parkus"/>
     </bean>
 </beans>
