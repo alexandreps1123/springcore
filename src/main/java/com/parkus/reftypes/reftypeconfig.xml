@@ -10,9 +10,8 @@
     <bean name="scores" class="com.parkus.reftypes.Scores" 
         p:maths="80" p:physics="70" p:chemistry="88" />
 
-    <bean name="student" class="com.parkus.reftypes.Student">
-        <property name="scores">
-            <ref bean="scores" />
-        </property>
+    <bean name="student" class="com.parkus.reftypes.Student"
+        p:scores-ref="scores">
+        <!-- <property name="scores" ref="scores" /> -->
     </bean>
 </beans>
