@@ -1,4 +1,4 @@
-package com.parkus.cardealer;
+package com.parkus.set;
 
 import java.util.List;
 

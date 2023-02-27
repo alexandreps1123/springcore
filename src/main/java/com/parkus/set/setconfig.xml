@@ -7,7 +7,7 @@
     http://www.springframework.org/schema/context
     http://www.springframework.org/schema/context/spring-context.xsd">
 
-    <bean name="cardealer" class="com.parkus.cardealer.CarDealer">
+    <bean name="cardealer" class="com.parkus.set.CarDealer">
         <property name="name">
             <value>Ferrari</value>
         </property>

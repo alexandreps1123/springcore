@@ -1,11 +1,11 @@
-package com.parkus.cardealer;
+package com.parkus.set;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class Test {
     public static void main(String[] args) {
-        ApplicationContext context = new ClassPathXmlApplicationContext("com/parkus/cardealer/setconfig.xml");
+        ApplicationContext context = new ClassPathXmlApplicationContext("com/parkus/set/setconfig.xml");
 
         CarDealer car = (CarDealer) context.getBean("cardealer");
 
