@@ -8,8 +8,10 @@ public class Test {
         ApplicationContext ctx = new ClassPathXmlApplicationContext(
             "com/parkus/innerbeans/config.xml");
 
-        Employee prescription = (Employee) ctx.getBean("employee");
+        Employee employee = (Employee) ctx.getBean("employee");
+        System.out.println(employee.hashCode());
 
-        System.out.println(prescription);
+        Employee employee2 = (Employee) ctx.getBean("employee");
+        System.out.println(employee2.hashCode());
     }
 }
