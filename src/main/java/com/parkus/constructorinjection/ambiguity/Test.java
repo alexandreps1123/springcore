@@ -10,9 +10,11 @@ public class Test {
 
         Addition additionInt = (Addition) ctx.getBean("additionint");
         Addition additionDouble = (Addition) ctx.getBean("additiondouble");
+        Addition addition = (Addition) ctx.getBean("addition");
 
         System.out.println(additionInt);
         System.out.println(additionDouble);
+        System.out.println(addition);
 
     }
 }

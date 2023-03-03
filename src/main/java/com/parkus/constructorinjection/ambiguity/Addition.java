@@ -12,6 +12,11 @@ public class Addition {
         System.out.println("Inside constructor double");
     }
 
+    Addition(int a, double b)
+    {   
+        System.out.println("Inside constructor");
+    }
+
     Addition(String a, String b)
     {   
         System.out.println("Inside constructor String");
